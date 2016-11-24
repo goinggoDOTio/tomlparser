@@ -19,6 +19,7 @@ type Config struct {
 
 func main() {
 	config := parse("mytoml.toml")
+	fmt.Println("Gulherme")
 
 	fmt.Println("Age: ", config.Age)
 	for index, element := range config.Cats {
